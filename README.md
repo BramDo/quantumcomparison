@@ -4,7 +4,9 @@ Implementation if QBSC quantum bit string comparator into a Grover's algorithm. 
 Overall circuit is give in the next figure:
 
 ![alt text](QBSC.png)
-Oracle Design
+
+
+**Oracle Design**
 We wnat to do a task that is named "less than k". This means given a positive k and a list of integer numbers, look for the number within the list, that are less than K. We will start with a fixed list for the numbers from 0 to 8 and k can be chosen. Later we will use a arbitrary list.
 Example A = less_than_k (k=3, [0,1,2,3,4,5,6,7]) 
 print(A)
