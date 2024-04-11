@@ -6,12 +6,14 @@ Overall circuit is give in the next figure:
 ![alt text](QBSC.png)
 \
 **Oracle Design**
-We wantt to do a task that is named "less than k". This means given a positive k and a list of integer numbers, look for the number within the list, that are less than K. We will start with a fixed list for the numbers from 0 to 8 and k can be chosen. Later we will use a arbitrary list.
+We wantt to do a task that is named "less than k". This means given a positive k and a list of integer numbers, look for the number within the list, that are less than K. We will start with a fixed list for the numbers from 0 to 8 and k can be chosen. Later we will use a arbitrary list\
 Example A = less_than_k (k=3, [0,1,2,3,4,5,6,7])\
 print(A)\
-0,1,2\
+0,1,2
 
-The comparotor compares two integers and is build around a bitcompare circuit. The compare circuit compare two qubits for the two one-digit binary numbers.
+
+The comparotor compares two integers and is build around a bitcompare circuit. The compare circuit compare two qubits for the two one-digit binary numbers\
+
 ![alt text](image.png)\
 We can simulate this circuit with two inputs a an b\
 The output will be 00 if a = b\
